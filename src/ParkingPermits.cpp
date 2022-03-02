@@ -104,35 +104,19 @@ int main()
 
                     cout << userCar->getColor() << endl;
 
-                    string make;
-                    cout << "What is your vehicle make?" << endl;
-                    std::cin >> make;
-                    userCar->setMake(make);
+                    int year;
+                    cout << "What is your vehicle year?" << endl;
+                    std::cin >> year;
+                    userCar->setYear(year);
 
-                    cout << userCar->getMake() << endl;
+                    cout << userCar->getYear() << endl;
 
-                    string make;
-                    cout << "What is your vehicle make?" << endl;
-                    std::cin >> make;
-                    userCar->setMake(make);
+                    double zeroToSixty;
+                    cout << "What is your vehicle's 0-60 time in seconds?" << endl;
+                    std::cin >> zeroToSixty;
+                    userCar->setIsSlow(zeroToSixty);
+                    cout << userCar->getIsSlow() << endl;
 
-                    cout << userCar->getMake() << endl;
-
-                    string make;
-                    cout << "What is your vehicle make?" << endl;
-                    std::cin >> make;
-                    userCar->setMake(make);
-
-                    cout << userCar->getMake() << endl;
-
-                    string make;
-                    cout << "What is your vehicle make?" << endl;
-                    std::cin >> make;
-                    userCar->setMake(make);
-
-                    cout << userCar->getMake() << endl;
-                    
-                
                 }
                 case lev:
                 {
