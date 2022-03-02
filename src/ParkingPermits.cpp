@@ -115,6 +115,7 @@ int main()
                     cout << "What is your vehicle's 0-60 time in seconds?" << endl;
                     std::cin >> zeroToSixty;
                     userCar->setIsSlow(zeroToSixty);
+                    
                     cout << userCar->getIsSlow() << endl;
 
                 }
