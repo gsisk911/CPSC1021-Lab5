@@ -40,7 +40,7 @@ string Motorcycle:: getModel(){
 }
 
 int Motorcycle:: getHeadlights(){
-    return headlights
+    return headlights;
 }
 
 string Motorcycle:: getColor(){

@@ -1,5 +1,7 @@
 #ifndef VENDOR_H_
 #define VENDOR_H_
+#include <iostream>
+using namespace std;
 
 class Vendor{
     
@@ -17,8 +19,8 @@ class Vendor{
         string getEmail(); 
         void setEmail(string e); 
         string getCompany(); 
-        void getCompany(string c); 
-        int hoursOfService()
-        void hoursOfService(int h)
-}
+        void setCompany(string c); 
+        int getHoursOfService();
+        bool setHoursOfService(int h);
+};
 #endif
