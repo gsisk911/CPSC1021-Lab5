@@ -131,10 +131,8 @@ int main()
                     userCar->setMake(make);
 
                     cout << userCar->getMake() << endl;
-                    cout << userCar->getMake() << endl;
                     
-                    
-
+                
                 }
                 case lev:
                 {
