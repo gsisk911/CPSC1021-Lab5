@@ -11,6 +11,8 @@ enum passType { commuterP = 1, residentP, teacherP, visitorP, vendorP, motorcycl
 
 int makeInvoice();
 
+//test comment
+
 int main()
 {
     int buf {0};
