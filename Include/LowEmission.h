@@ -12,13 +12,15 @@
 
 using namespace std;
 
+//class initialization
 class LowEmission{
+    
+    //private members
     private:
         string make, model, color, plate;
         char type;
+    //public members
     public:
-        //LowEmission() = default;
-        //LowEmission(string ma, string; mo, string; c, char t, string p): make{ma}, model{mo}, color{c}, type{t}, plate{p} {};
         string getMake();
         string getModel();
         string getColor();
