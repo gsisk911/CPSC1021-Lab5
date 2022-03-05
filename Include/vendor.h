@@ -1,6 +1,10 @@
 #ifndef VENDOR_H_
 #define VENDOR_H_
 
+#include <iostream>
+
+using namespace std;
+
 class Vendor{
     
     private: 
@@ -19,6 +23,6 @@ class Vendor{
         string getCompany(); 
         void setCompany(string c); 
         int getHoursOfService();
-        void setHoursOfService(int h);
+        bool setHoursOfService(int h);
 };
 #endif
