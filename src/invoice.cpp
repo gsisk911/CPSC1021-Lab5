@@ -29,7 +29,7 @@ int Invoice::getDiscount() {
     return discount;
 }
 
-int calcPrice(int pricePermit, int serviceCharge, int discount) {
+int Invoice::calcPrice() {
     return pricePermit + serviceCharge - discount;
 }
 

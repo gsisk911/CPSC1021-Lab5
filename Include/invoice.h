@@ -21,7 +21,7 @@ class Invoice
         int getPricePermit();
         int getServiceCharge();
         int getDiscount();
-        int calcPrice(int pricePermit, int serviceCharge, int discount);
+        int calcPrice();
         void printOut(Student student, Car car);
         void printOut(Student student, LowEmission lowEmission);
         void printOut(Student student, Moped moped);

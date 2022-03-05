@@ -482,9 +482,3 @@ int main()
     return 0;
 }
 
-/*
-int makeInvoice(Invoice userInvoice, int fees, 
-{
-
-}
-*/
