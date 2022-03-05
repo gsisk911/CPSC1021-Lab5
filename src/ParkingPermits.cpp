@@ -163,6 +163,31 @@ int main()
                 }
                 case motorcycle:
                 {
+                    Motorcycle motorcycle; 
+                    string make; 
+                    cout << "What is the make of your motorcycle?" << endl; 
+                    std:: cin >> make; 
+                    motorcycle.setMake(make);
+
+                    string model; 
+                    cout << "What is the model of your motorcycle?" << endl; 
+                    std::cin >> model; 
+                    motorcycle.setModel(model);
+
+                    string color; 
+                    cout << "What color is your motorcycle?" << endl; 
+                    std:: cin >> color; 
+                    motorcycle.setColor(color);
+
+                    int headlights;
+                    cout << "How many headilghts does your motorcycle have?" << endl; 
+                    std::cin >> headlights;
+                    motorcycle.setHeadlights(headlights);
+
+                    string fuel;
+                    cout << "What do you use to power your motorcycle?" << endl; 
+                    std::cin >> fuel; 
+                    motorcycle.setFuel(fuel);
                     break;
                 }
                 default:
@@ -299,6 +324,31 @@ int main()
                 }
                 case motorcycle:
                 {
+                                        Motorcycle motorcycle; 
+                    string make; 
+                    cout << "What is the make of your motorcycle?" << endl; 
+                    std:: cin >> make; 
+                    motorcycle.setMake(make);
+
+                    string model; 
+                    cout << "What is the model of your motorcycle?" << endl; 
+                    std::cin >> model; 
+                    motorcycle.setModel(model);
+
+                    string color; 
+                    cout << "What color is your motorcycle?" << endl; 
+                    std:: cin >> color; 
+                    motorcycle.setColor(color);
+
+                    int headlights;
+                    cout << "How many headilghts does your motorcycle have?" << endl; 
+                    std::cin >> headlights;
+                    motorcycle.setHeadlights(headlights);
+
+                    string fuel;
+                    cout << "What do you use to power your motorcycle?" << endl; 
+                    std::cin >> fuel; 
+                    motorcycle.setFuel(fuel);
                     break;
                 }
                 default:
