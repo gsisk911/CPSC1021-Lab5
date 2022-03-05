@@ -1,6 +1,6 @@
 //
 //  Teacher.cpp
-//  
+//
 //
 //  Created by Omar Yousuf Ahmed on 3/3/22.
 //
@@ -17,7 +17,7 @@ bool Teacher::setName(string n){
     //initializing
     temp = true;
     
-    for (int i=0; i < size(n); ++i){
+    for (int i=0; i < n.length(); ++i){
         //if digit is detected
         if (isdigit(n[i])){
             temp = false;
@@ -29,7 +29,7 @@ bool Teacher::setName(string n){
         }
     }
     
-    //returns bool 
+    //returns bool
     return temp;
 }
 
@@ -45,7 +45,7 @@ void Teacher::setAddress(string a){
 
 //function responsible for returning address
 string Teacher::getAddress(){
-    return address; 
+    return address;
 }
 
 //function responsible for setting email
@@ -66,7 +66,7 @@ bool Teacher::setDepartment(string d){
     //initiazlizing
     temp = true;
 
-    for (int i=0; i < size(d); ++i){
+    for (int i=0; i < d.length(); ++i){
         //if digit is indicated
         if (isdigit(d[i])){
             temp = false;
@@ -96,7 +96,7 @@ bool Teacher::setUser(string u){
     temp = true;
     
     //if digit is found
-    for (int i=0; i < size(u); ++i){
+    for (int i=0; i < u.length(); ++i){
         if (isdigit(u[i])){
             temp = false;
         }

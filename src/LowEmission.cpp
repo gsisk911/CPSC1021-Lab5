@@ -20,7 +20,7 @@ bool LowEmission::setMake(string m){
     //initialization
     temp = true;
 
-    for (int i=0; i < size(m); ++i){
+    for (int i=0; i < m.length(); ++i){
         //if digit is found
         if (isdigit(m[i])){
             temp = false;
@@ -45,7 +45,7 @@ bool LowEmission::setModel(string m){
     temp = true;
     
     //checks size of model input
-    if (size(m) > 0)
+    if (m.length() > 0)
         model = m;
     else
         temp = false;
@@ -57,12 +57,12 @@ bool LowEmission::setModel(string m){
 //function responsible for setting and checking color name
 bool LowEmission::setColor(string c){
     //declarations
-    bool temp; 
+    bool temp;
     
     //initialization
     temp = true;
     
-    for (int i=0; i < size(c); ++i){
+    for (int i=0; i < c.length(); ++i){
         //if digit is found
         if (isdigit(c[i])){
             temp = false;
@@ -80,7 +80,7 @@ bool LowEmission::setColor(string c){
 
 //function sets vehicle type
 void LowEmission::setType(char t){
-    type = t; 
+    type = t;
 }
 
 //function checks and sets plate number
@@ -92,7 +92,7 @@ bool LowEmission::setPlate(string p){
     temp = true;
     
     //checks if plate size is valid and has at most 7 characters
-    if (size(p) <= 7 && size(p) > 0)
+    if (p.length() <= 7 && p.length() > 0)
         plate = p;
     else
         temp = false;
