@@ -17,8 +17,8 @@ class Vendor{
         string getEmail(); 
         void setEmail(string e); 
         string getCompany(); 
-        void getCompany(string c); 
-        int hoursOfService()
-        void hoursOfService(int h)
-}
+        void setCompany(string c); 
+        int getHoursOfService();
+        void setHoursOfService(int h);
+};
 #endif
