@@ -13,7 +13,7 @@ void Vendor:: setAddress(string a){
     address = a;
 }
 
-void Vendor:: setEmail(string e){
+void Vendor:: setEmail(int e){
     email = e;
 }
 
@@ -21,7 +21,7 @@ void Vendor:: setCompany(string c){
     company = c;
 }
 
-bool Vendor:: setHoursOfService(int h){
+bool Vendor:: sethoursOfService(int h){
     bool validHOS = true; 
     if (h < 0){
         return false;
@@ -32,21 +32,21 @@ bool Vendor:: setHoursOfService(int h){
 }
 
 string Vendor:: getName(){
-    return name;
+    return make;
 }
 
-string Vendor:: getAddress(){
-    return address; 
+string Vendor:: getAdress(){
+    return model; 
 }
 
 string Vendor:: getEmail(){
-    return email;
+    return email
 }
 
 string Vendor:: getCompany(){
     return company; 
 }
 
-int Vendor:: getHoursOfService(){
+int Vendor:: gethoursOfService(){
     return hoursOfService;
 }
