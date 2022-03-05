@@ -1,3 +1,5 @@
+//Sam Crooks
+
 #ifndef MOPED_H_
 #define MOPED_H_
 #include <iostream>

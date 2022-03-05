@@ -1,3 +1,5 @@
+// Sam Crooks
+
 #ifndef VISITOR_H_
 #define VISITOR_H_
 #include <iostream>
